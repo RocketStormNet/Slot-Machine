@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90CBE3A32472784700839E79 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBE3A22472784700839E79 /* LogoView.swift */; };
+		90CBE3A5247278A700839E79 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBE3A4247278A700839E79 /* Modifiers.swift */; };
+		90CBE3A724727E7500839E79 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBE3A624727E7500839E79 /* Extensions.swift */; };
 		CB3D12FC2461645A0097775C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D12FB2461645A0097775C /* AppDelegate.swift */; };
 		CB3D12FE2461645A0097775C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D12FD2461645A0097775C /* SceneDelegate.swift */; };
 		CB3D13002461645A0097775C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D12FF2461645A0097775C /* ContentView.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90CBE3A22472784700839E79 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		90CBE3A4247278A700839E79 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Modifiers.swift; path = "Slot Machine/Views/Modifiers.swift"; sourceTree = SOURCE_ROOT; };
+		90CBE3A624727E7500839E79 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Slot Machine/Views/Extensions.swift"; sourceTree = SOURCE_ROOT; };
 		CB3D12F82461645A0097775C /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3D12FB2461645A0097775C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB3D12FD2461645A0097775C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				CB3D12FF2461645A0097775C /* ContentView.swift */,
+				90CBE3A22472784700839E79 /* LogoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +126,8 @@
 		CB3D1321246166F80097775C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				90CBE3A4247278A700839E79 /* Modifiers.swift */,
+				90CBE3A624727E7500839E79 /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -203,8 +212,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3D12FC2461645A0097775C /* AppDelegate.swift in Sources */,
+				90CBE3A724727E7500839E79 /* Extensions.swift in Sources */,
+				90CBE3A32472784700839E79 /* LogoView.swift in Sources */,
 				CB3D12FE2461645A0097775C /* SceneDelegate.swift in Sources */,
 				CB3D13002461645A0097775C /* ContentView.swift in Sources */,
+				90CBE3A5247278A700839E79 /* Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

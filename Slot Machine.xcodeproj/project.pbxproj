@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90B58FCA2473C774001A8D15 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B58FC92473C774001A8D15 /* ReelView.swift */; };
 		90CBE3A32472784700839E79 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBE3A22472784700839E79 /* LogoView.swift */; };
 		90CBE3A5247278A700839E79 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBE3A4247278A700839E79 /* Modifiers.swift */; };
 		90CBE3A724727E7500839E79 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBE3A624727E7500839E79 /* Extensions.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90B58FC92473C774001A8D15 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
 		90CBE3A22472784700839E79 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		90CBE3A4247278A700839E79 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Modifiers.swift; path = "Slot Machine/Views/Modifiers.swift"; sourceTree = SOURCE_ROOT; };
 		90CBE3A624727E7500839E79 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Slot Machine/Views/Extensions.swift"; sourceTree = SOURCE_ROOT; };
@@ -119,6 +121,7 @@
 			children = (
 				CB3D12FF2461645A0097775C /* ContentView.swift */,
 				90CBE3A22472784700839E79 /* LogoView.swift */,
+				90B58FC92473C774001A8D15 /* ReelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				90CBE3A724727E7500839E79 /* Extensions.swift in Sources */,
 				90CBE3A32472784700839E79 /* LogoView.swift in Sources */,
 				CB3D12FE2461645A0097775C /* SceneDelegate.swift in Sources */,
+				90B58FCA2473C774001A8D15 /* ReelView.swift in Sources */,
 				CB3D13002461645A0097775C /* ContentView.swift in Sources */,
 				90CBE3A5247278A700839E79 /* Modifiers.swift in Sources */,
 			);

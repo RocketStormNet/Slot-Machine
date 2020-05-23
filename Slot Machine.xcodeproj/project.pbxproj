@@ -25,6 +25,7 @@
 		CB3D131C246166B70097775C /* background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB3D1314246166B70097775C /* background-music.mp3 */; };
 		CB3D131D246166B70097775C /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB3D1315246166B70097775C /* chimeup.mp3 */; };
 		CB3D131E246166B70097775C /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB3D1316246166B70097775C /* spin.mp3 */; };
+		CB57C2AF24797E8C00F6B1D2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57C2AE24797E8C00F6B1D2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		CB3D1314246166B70097775C /* background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background-music.mp3"; sourceTree = "<group>"; };
 		CB3D1315246166B70097775C /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		CB3D1316246166B70097775C /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		CB57C2AE24797E8C00F6B1D2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				CB3D12FF2461645A0097775C /* ContentView.swift */,
 				90CBE3A22472784700839E79 /* LogoView.swift */,
 				90B58FC92473C774001A8D15 /* ReelView.swift */,
+				CB57C2AE24797E8C00F6B1D2 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB57C2AF24797E8C00F6B1D2 /* InfoView.swift in Sources */,
 				CB3D12FC2461645A0097775C /* AppDelegate.swift in Sources */,
 				90CBE3A724727E7500839E79 /* Extensions.swift in Sources */,
 				90CBE3A32472784700839E79 /* LogoView.swift in Sources */,
